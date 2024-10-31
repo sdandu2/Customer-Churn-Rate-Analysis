@@ -1,6 +1,13 @@
-pandas
+# Core Libraries
+os
+json
+
+# Kaggle API
+kaggle
+
+# PySpark and MLlib
+pyspark
+
+# Additional data science libraries
 numpy
-matplotlib
-seaborn
-scikit-learn
-xgboost
+pandas
