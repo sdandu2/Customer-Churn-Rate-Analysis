@@ -1,15 +1,15 @@
 # Customer Churn Rate Analysis
 
-This project examines customer churn data to identify key factors influencing customer retention. Through data analysis and machine learning techniques, it uncovers patterns in customer behavior and provides actionable insights to help reduce churn rates.
+This project uses a Telco customer churn dataset to analyze and predict customer attrition. By leveraging PySpark, feature engineering, and machine learning techniques, we develop a predictive model for customer churn, aiming to provide insights into customer retention strategies.
 
-## Project Structure
-- **data/**: Contains raw and processed customer churn datasets.
-- **src/**: Python scripts for data processing, feature engineering, and modeling.
-- **notebooks/**: Jupyter notebooks showcasing data exploration and churn analysis.
-- **outputs/**: Stores generated graphs, tables, and model outputs.
+## Project Overview
+1. **Data Loading**: The dataset is downloaded from Kaggle using the Kaggle API.
+2. **Data Processing**: Spark is used to ingest and preprocess the data, including handling categorical variables and feature scaling.
+3. **Feature Engineering**: New features are created to enhance prediction accuracy.
+4. **Modeling**: A logistic regression model is trained with cross-validation and hyperparameter tuning using Spark MLlib.
+5. **Evaluation**: The model's performance is evaluated using AUC.
 
-## Getting Started
-### Prerequisites
-Install required packages with:
+## Requirements
+Install necessary libraries with:
 ```bash
 pip install -r requirements.txt
